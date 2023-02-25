@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20034014-f306-4761-a794-d568f8ebe9d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxi/javatests/player/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maxi/javatests/player/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/maxi/javatests/player/PlayerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/maxi/javatests/player/Dice.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -39,24 +47,30 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_directory_selection": "C:/Maxi/Platzi/JavaTest/src/main/java/com/maxi/javatests",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.maxi.javatests.player" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.maxi.javatests.player" />
       <recent name="com.Maxi.javaTest.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PasswordUtilTest (2)">
+  <component name="RunManager" selected="JUnit.PlayerTest">
     <configuration name="PasswordUtilTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
@@ -102,22 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordUtilTest.medium_when_has_letters_and_numbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Maxi.javaTest.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Maxi.javaTest.util" />
-      <option name="MAIN_CLASS_NAME" value="com.Maxi.javaTest.util.PasswordUtilTest" />
-      <option name="METHOD_NAME" value="medium_when_has_letters_and_numbers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PasswordUtilTest.weak_when_has_less_than_8_letters (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
@@ -134,13 +132,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maxi.javatests.player.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maxi.javatests.player" />
+      <option name="MAIN_CLASS_NAME" value="com.maxi.javatests.player.PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerTest" />
         <item itemvalue="JUnit.PasswordUtilTest (2)" />
         <item itemvalue="JUnit.PasswordUtilTest.weak_when_has_less_than_8_letters (1)" />
         <item itemvalue="JUnit.PasswordUtilTest (1)" />
         <item itemvalue="JUnit.PasswordUtilTest" />
-        <item itemvalue="JUnit.PasswordUtilTest.medium_when_has_letters_and_numbers" />
       </list>
     </recent_temporary>
   </component>
